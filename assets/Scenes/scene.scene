@@ -21,12 +21,18 @@
       },
       {
         "__id__": 6
+      },
+      {
+        "__id__": 58
+      },
+      {
+        "__id__": 60
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 58
+      "__id__": 62
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -57,7 +63,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 59
+      "__id__": 63
     },
     "_id": "633b2228-2292-452f-b878-17c93e9b753b"
   },
@@ -76,7 +82,7 @@
         "__id__": 3
       },
       {
-        "__id__": 57
+        "__id__": 61
       },
       {
         "__id__": 56
@@ -133,6 +139,9 @@
     },
     "pipes": {
       "__id__": 56
+    },
+    "audioCtrl": {
+      "__id__": 57
     },
     "speed": 300,
     "pipeSpeed": 200,
@@ -2042,6 +2051,145 @@
     "_id": "75Qo6+jiVEG5Rr2avqVsyA"
   },
   {
+    "__type__": "57f23Blvv1M+o5JoRHpHU+w",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 58
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "clips": [
+      {
+        "__uuid__": "85ec3c1d-4997-4d6d-857e-754420dcb140",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "ad086e38-8229-418c-9420-672bec0dfcbb",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "9eae1906-1b57-4bb3-a140-fa6522e833a1",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "d082e54f-71b4-4c8e-a5c5-81593defaa66",
+        "__expectedType__": "cc.AudioClip"
+      }
+    ],
+    "audioSource": {
+      "__id__": 59
+    },
+    "_id": "d1WWv9aGxCw5SMzZlPLD9q"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "AudioCtrl",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 57
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "97pjlX50VMj4JdZFzlYV8V"
+  },
+  {
+    "__type__": "cc.AudioSource",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 60
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_clip": null,
+    "_loop": false,
+    "_playOnAwake": true,
+    "_volume": 1,
+    "_id": "f3vaDgUblDKrhwpccdSLYL"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Audio",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 59
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "1237zbmopFlaHJhc/lv43Q"
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -2074,28 +2222,28 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 60
-    },
-    "shadows": {
-      "__id__": 61
-    },
-    "_skybox": {
-      "__id__": 62
-    },
-    "fog": {
-      "__id__": 63
-    },
-    "octree": {
       "__id__": 64
     },
-    "skin": {
+    "shadows": {
       "__id__": 65
     },
-    "lightProbeInfo": {
+    "_skybox": {
       "__id__": 66
     },
-    "postSettings": {
+    "fog": {
       "__id__": 67
+    },
+    "octree": {
+      "__id__": 68
+    },
+    "skin": {
+      "__id__": 69
+    },
+    "lightProbeInfo": {
+      "__id__": 70
+    },
+    "postSettings": {
+      "__id__": 71
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
