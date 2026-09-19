@@ -25,7 +25,9 @@
     ],
     "_active": true,
     "_components": [],
-    "_prefab": null,
+    "_prefab": {
+      "__id__": 49
+    },
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -55,7 +57,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 46
+      "__id__": 50
     },
     "_id": "633b2228-2292-452f-b878-17c93e9b753b"
   },
@@ -74,7 +76,10 @@
         "__id__": 3
       },
       {
-        "__id__": 45
+        "__id__": 48
+      },
+      {
+        "__id__": 47
       }
     ],
     "_prefab": null,
@@ -126,6 +131,9 @@
     "bird": {
       "__id__": 16
     },
+    "pipes": {
+      "__id__": 47
+    },
     "speed": 300,
     "pipeSpeed": 200,
     "_id": "41msJvW8tDz5HpEAYrxWam"
@@ -141,13 +149,13 @@
     "_enabled": true,
     "__prefab": null,
     "ground1": {
-      "__id__": 35
+      "__id__": 37
     },
     "ground2": {
-      "__id__": 38
+      "__id__": 40
     },
     "ground3": {
-      "__id__": 41
+      "__id__": 43
     },
     "_id": "f0ns5ApG5DJJjtGatR1t9t"
   },
@@ -161,19 +169,19 @@
     },
     "_children": [
       {
-        "__id__": 35
+        "__id__": 37
       },
       {
-        "__id__": 38
+        "__id__": 40
       },
       {
-        "__id__": 41
+        "__id__": 43
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 44
+        "__id__": 46
       },
       {
         "__id__": 4
@@ -232,18 +240,21 @@
       },
       {
         "__id__": 18
+      },
+      {
+        "__id__": 32
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 32
-      },
-      {
-        "__id__": 33
-      },
-      {
         "__id__": 34
+      },
+      {
+        "__id__": 35
+      },
+      {
+        "__id__": 36
       }
     ],
     "_prefab": null,
@@ -1237,6 +1248,73 @@
     "_id": "27f2nUMRpD/oFMSWje+u3d"
   },
   {
+    "__type__": "cc.Node",
+    "_name": "PipePool",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 6
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 33
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "310O6Rl8tJwacbv7JWqoSM"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 32
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "48tqMt6vpN46JIKaQh0ujd"
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -1316,10 +1394,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 36
+        "__id__": 38
       },
       {
-        "__id__": 37
+        "__id__": 39
       }
     ],
     "_prefab": null,
@@ -1358,7 +1436,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 35
+      "__id__": 37
     },
     "_enabled": true,
     "__prefab": null,
@@ -1380,7 +1458,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 35
+      "__id__": 37
     },
     "_enabled": true,
     "__prefab": null,
@@ -1425,10 +1503,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 39
+        "__id__": 41
       },
       {
-        "__id__": 40
+        "__id__": 42
       }
     ],
     "_prefab": null,
@@ -1467,7 +1545,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 38
+      "__id__": 40
     },
     "_enabled": true,
     "__prefab": null,
@@ -1489,7 +1567,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 38
+      "__id__": 40
     },
     "_enabled": true,
     "__prefab": null,
@@ -1534,10 +1612,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 42
+        "__id__": 44
       },
       {
-        "__id__": 43
+        "__id__": 45
       }
     ],
     "_prefab": null,
@@ -1576,7 +1654,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 41
+      "__id__": 43
     },
     "_enabled": true,
     "__prefab": null,
@@ -1598,7 +1676,7 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
-      "__id__": 41
+      "__id__": 43
     },
     "_enabled": true,
     "__prefab": null,
@@ -1654,6 +1732,25 @@
     "_id": "bc+QaOmxFL/oZItwfvYX/x"
   },
   {
+    "__type__": "1e7aeAZnC5AJpi7JrOhicKm",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "prefabPipes": {
+      "__uuid__": "bf9d8fbe-4a14-498c-8933-d687f0b1ad0c",
+      "__expectedType__": "cc.Prefab"
+    },
+    "pipePoolHome": {
+      "__id__": 32
+    },
+    "_id": "75Qo6+jiVEG5Rr2avqVsyA"
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -1676,30 +1773,38 @@
     "_id": "5axMqPPcVNGYuNBELletpc"
   },
   {
+    "__type__": "cc.PrefabInfo",
+    "root": null,
+    "asset": null,
+    "fileId": "633b2228-2292-452f-b878-17c93e9b753b",
+    "instance": null,
+    "targetOverrides": null
+  },
+  {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 47
-    },
-    "shadows": {
-      "__id__": 48
-    },
-    "_skybox": {
-      "__id__": 49
-    },
-    "fog": {
-      "__id__": 50
-    },
-    "octree": {
       "__id__": 51
     },
-    "skin": {
+    "shadows": {
       "__id__": 52
     },
-    "lightProbeInfo": {
+    "_skybox": {
       "__id__": 53
     },
-    "postSettings": {
+    "fog": {
       "__id__": 54
+    },
+    "octree": {
+      "__id__": 55
+    },
+    "skin": {
+      "__id__": 56
+    },
+    "lightProbeInfo": {
+      "__id__": 57
+    },
+    "postSettings": {
+      "__id__": 58
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
